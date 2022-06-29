@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 /* Reset Styles */
 *,
 *:before,
@@ -66,6 +69,7 @@ u {
   display: flex;
   gap: 25px;
   align-items: center;
+  font-family: "Open Sans" ,sans-serif;
 }
 
 .signWrap {
@@ -95,9 +99,10 @@ u {
 }
 
 .signInTitle {
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 2px;
   color: #f0f0f0;
+  font-weight: 400;
 }
 
 .download {
@@ -109,8 +114,9 @@ u {
 }
 
 .downloadTitle {
-  padding: 20px;
+  padding: 12px;
   color: rgb(0, 0, 0);
   letter-spacing: 2px;
   font-size: 11px;
+  font-weight: 700;
 }
