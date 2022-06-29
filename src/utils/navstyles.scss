@@ -1,0 +1,67 @@
+/* Reset Styles */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+svg {
+  display: block;
+  overflow: hidden;
+}
+
+button {
+  background-color: transparent;
+  appearance: none;
+}
+
+u {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.menus {
+  display: flex;
+  gap: 30px;
+}
+
+.menuItems {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.menuItems:hover {
+  border-bottom: 5px solid #0099da;
+}
+
+.dropdown {
+
+}
