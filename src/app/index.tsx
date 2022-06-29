@@ -1,10 +1,9 @@
 import React, {FC} from "react";
+import AppRouter from "../pages/router";
 
 const App: FC = () => {
   return (
-    <div>
-
-    </div>
+    <AppRouter/>
   );
 };
 
