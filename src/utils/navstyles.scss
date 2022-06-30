@@ -50,18 +50,44 @@ a {
   gap: 30px;
 }
 
+.dropdown {
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 19px 38px rgba(#000000, 0.3), 0 15px 12px rgba(#000000, 0.2);
+  display: flex;
+  padding: 20px;
+  font-size: 16px;
+  align-items: center;
+  line-height: 2;
+  position: absolute;
+  width: 302px;
+  height: 150px;
+  background-color: #0e1128;
+  opacity: 0;
+  top: 52px;
+  pointer-events: none;
+  left: -20px;
+}
+
+.wrapper {
+  position: relative;
+  &:hover .dropdown {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
 .menuItems {
   display: flex;
   align-items: center;
   height: 52px;
   font-size: 11px;
   text-transform: uppercase;
+  letter-spacing: 1.05px;
+  line-height: 16px;
+
+  &:hover {
+    border-bottom: 5px solid #0099da;
+    padding-top: 5px;
+  }
 }
 
-.menuItems:hover {
-  border-bottom: 5px solid #0099da;
-}
-
-.dropdown {
-
-}
