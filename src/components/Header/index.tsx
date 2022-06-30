@@ -1,8 +1,6 @@
 import React, {FC} from "react";
 
 import styles from "./styles.scss"
-import egslogo from "../../assets/Unreal+Engine_eg-logo-filled-1255x1272-0eb9d144a0f981d1cbaaa1eb957de7a3207b31bb.png"
-import eulogo from "../../assets/Unreal-Engine-New-Logo.webp"
 import lupa from "../../assets/751463.png"
 import lang from "../../assets/558593.png"
 import signIn from "../../assets/1000997.png"
@@ -16,12 +14,12 @@ const Header: FC = () => {
         <div className={styles.leftNav}>
           <div className={styles.egslogo}>
             <a href="https://www.epicgames.com/store/en-US/">
-              <img className={styles.egslogo} src={egslogo} alt=""/>
+              <img className={styles.egslogo} src="https://cdn2.unrealengine.com/eg-shield-logo-white-f8185c103d8d.svg" alt=""/>
             </a>
           </div>
           <div className={styles.uelogo}>
             <a href="https://www.epicgames.com/store/en-US/">
-              <img className={styles.eulogo} src={eulogo} alt=""/>
+              <img className={styles.eulogo} src="https://cdn2.unrealengine.com/ue-horizontal-logo-cba14ebde1ea.svg?resize=1&w=440&quality=high" alt=""/>
             </a>
           </div>
           <div className={styles.links}>
